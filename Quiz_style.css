@@ -1,0 +1,52 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px 30px;
+    font-size: 17px;
+    padding: 8px;
+}
+.container{
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: solid lightgrey;
+    border-radius: 6px;
+}
+
+input[type="text"],select
+{   background-color: #4daca1;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+    
+}
+input[type="text"],select :hover{
+    background-color: #4caf84;
+}
+
+input[type="submit"],
+input[type="reset"]
+{
+    background-color: #4daca1;
+    color: wheat;
+    padding: 12px 20px;
+    border: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    height: 60px;
+}
+
+input[type="submit"]:hover{
+    background-color: #4caf84;
+}
+
+input[type="reset"]:hover{
+    background-color: #4caf84;
+}
